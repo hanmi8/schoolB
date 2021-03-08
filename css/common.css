@@ -51,10 +51,12 @@ a {text-decoration: none;}
 .col-12 {width: 100%;}
 
 
-h1 {font-size:30px;margin-bottom:10px;font-weight:500;}
-h2 {font-size:24px;margin-bottom:8px;font-weight:500;}
-h3 {font-size:20px;margin-bottom:6px;font-weight:500;}
-h4 {font-size:18px;margin-bottom:4px;font-weight:500;}
+h1 {font-size:30px;margin-bottom:20px;font-weight:500;}
+h2 {font-size:24px;margin-bottom:20px;font-weight:500;}
+h3 {font-size:20px;margin-bottom:10px;font-weight:500;}
+h4 {font-size:18px;margin-bottom:10px;font-weight:500;}
+
+.section {margin-bottom:100px;}
 
 table {width:100%;border-collapse: collapse;border-top:2px solid #ccc;}
 table th, table td {padding:10px;border-bottom:1px solid #ccc;text-align:center;}
@@ -115,7 +117,8 @@ tbody.tree td .depth-second {display:inline-block;margin-left:40px;}
     width: 100%;
     line-height:1.5;
 }
-.form-group  {display:flex;margin-bottom:10px;}
+.form-group  {margin-bottom:10px;}
+.form-group:after  {content:'';display:block;height:0;clear:both;}
 .form-inline {display:inline-block;}
 .control-label {display:block;padding-top:6px;text-align:right;}
 .validation {padding:5px 0;}
@@ -158,9 +161,17 @@ tbody.tree td .depth-second {display:inline-block;margin-left:40px;}
 .topWrap .branding span {display:block;font-size:14px;font-weight:400;vertical-align:top;margin-top:5px;}
 .topWrap .gnb {position:relative;float:left;width:660px;padding-top:20px;}
 .topWrap .gnb ul:after {content:'';display:block;height:0;clear:both;}
-.topWrap .gnb ul li {float:left;width:150px;}
-.topWrap .gnb ul li a {display:block;width:100%;text-align:center;padding:10px;font-size:16px;font-weight:500;color:#3f4f5f;}
-.topWrap .gnb ul li a:hover,.topWrap .gnb ul li.on a {background:#0a53be;color:#fff;border-radius:100px;}
+.topWrap .gnb>ul>li {position:relative;float:left;width:150px;}
+.topWrap .gnb>ul>li>a {display:block;width:100%;text-align:center;padding:10px;font-size:16px;font-weight:500;color:#3f4f5f;}
+.topWrap .gnb>ul>li.on>a {background:#0a53be;color:#fff;border-radius:20px;}
+.topWrap .gnb>ul>li:hover>a {background:#0a53be;color:#fff;border-radius:20px 20px 0 0;}
+.topWrap .gnb>ul>li:hover>ul.depth-second {display:block;}
+.topWrap .gnb ul.depth-second {position:absolute;display:none;width:150px;background:#fff;padding:10px 0;border:2px solid #0a53be;
+    border-radius:0 0 10px 10px;transition:all .3s;z-index:97;}
+.topWrap .gnb ul.depth-second li {text-align:center;}
+.topWrap .gnb ul.depth-second li a {display:block;padding:10px;color:#555;word-break:keep-all;}
+.topWrap .gnb ul.depth-second li a:hover {background:#0a53be;color:#fff;}
+
 .topWrap .gnb .hamburger                {position:absolute;right:0;top:30px;width:24px;height:24px;cursor:pointer;}
 .topWrap .gnb .hamburger:after          {position:absolute;left:0;top:8px;content:'';width:24px;height:4px;background:#ccc;border-radius:10px;transition:.2s;}
 .topWrap .gnb .hamburger span           {display:inline-block;width:24px;height:24px;}
@@ -173,10 +184,10 @@ tbody.tree td .depth-second {display:inline-block;margin-left:40px;}
 .topWrap .util a {display:inline-block;font-size:14px;font-weight:400;color:#888;margin-left:20px;}
 .topWrap .util a:hover {color:#0a53be;}
 .sub .topWrap .sitemap {width:1000px;}
-.topWrap .sitemap {display:none;position:absolute;right:0;top:100px;width:780px;height:420px;padding:10px 30px;background:#457200;
+.topWrap .sitemap {display:none;position:absolute;right:0;top:100px;width:780px;height:420px;padding:20px 30px;background:#457200;
     border:15px solid #5c3113;border-radius:10px;box-shadow:inset 0 0 100px rgba(0,0,0,.5);z-index:99;opacity:.95;}
 .topWrap .sitemap > div {float:left;width:33.33%;margin-bottom:30px;font-weight:300;}
-.topWrap .sitemap > div h4 {position:relative;font-size:26px;color:#fff;margin-bottom:10px;}
+.topWrap .sitemap > div h4 {position:relative;font-size:22px;color:#fff;margin-bottom:10px;}
 .topWrap .sitemap > div h4:after {position:absolute;bottom:-7px;display:block;content:'';width:0;height:3px;background:#fff;opacity:0;transition: all .3s;}
 .topWrap .sitemap > div:hover h4:after {width:90%;opacity:1;transition: all .4s;}
 .topWrap .sitemap > div ul {padding-left:20px;}
