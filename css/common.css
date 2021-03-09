@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 * {box-sizing: border-box;}
-body {font-family: 'Noto Sans Korean', sans-serif;font-size: 14px;color: #3f4f5f;overflow-x: hidden;background:url('../images/topbg.png') no-repeat top center;}
+body {font-family: 'Noto Sans Korean', sans-serif;font-size: 16px;color: #3f4f5f;overflow-x: hidden;background:url('../images/topbg.png') no-repeat top center;}
 a {text-decoration: none;}
 .color1 {background:#80bc25;}
 .color2 {background:#60970c;}
@@ -50,13 +50,15 @@ a {text-decoration: none;}
 .col-11 {width: 91.6666666667%;}
 .col-12 {width: 100%;}
 
+.clearfix:after {content:'';display:block;height:0;clear:both;}
 
-h1 {font-size:30px;margin-bottom:40px;font-weight:500;}
-h2 {font-size:24px;margin-bottom:40px;font-weight:500;}
-h3 {font-size:20px;margin-bottom:20px;font-weight:500;}
-h4 {font-size:18px;margin-bottom:20px;font-weight:500;}
+h1 {font-size:40px;margin-bottom:40px;font-weight:500;}
+h2 {font-size:36px;margin-bottom:40px;font-weight:500;}
+h3 {font-size:30px;margin-bottom:20px;font-weight:500;}
+h4 {font-size:24px;margin-bottom:20px;font-weight:500;}
 
 .section {margin-bottom:100px;}
+.relative {position:relative;}
 
 table {width:100%;border-collapse: collapse;border-top:2px solid #ccc;}
 table th, table td {padding:10px;border-bottom:1px solid #ccc;text-align:center;}
@@ -124,13 +126,16 @@ table td a:hover {text-decoration:underline;}
     width: 100%;
     line-height:1.5;
 }
-.form-group  {margin-bottom:10px;}
+.form-group  {margin-bottom:20px;line-height:1.4;}
 .form-group:after  {content:'';display:block;height:0;clear:both;}
 .form-inline {display:inline-block;}
 .control-label {display:block;padding-top:6px;text-align:right;}
+.control-label:after {content:':';display:inline-block;padding-left:10px;}
 .validation {padding:5px 0;}
+/*.form-vertical {border-top:2px solid #ccc;padding-top:20px;}*/
+.form-control-static {padding-top:6px;}
 
-.tabs {width:100%;border-bottom:1px solid #0a53be;margin-bottom:20px;}
+.tabs {width:100%;border-bottom:1px solid #0a53be;margin:30px 0;}
 .tabs li {display:inline-block;width:100px;}
 .tabs li a {display:block;width:100%;background:#eee;border:1px solid #ccc;color:#888;border-bottom:none;border-radius:5px 5px 0 0;padding:10px 0;text-align:center;}
 .tabs li.on a,.tabs li a:hover {background:#0a53be;border:1px solid #0a53be;border-bottom:none;color:#fff;}
@@ -274,3 +279,18 @@ table td a:hover {text-decoration:underline;}
 .container .searchSchoolWrap .input-search select,
 .container .searchSchoolWrap .input-search button {width:200px;}
 .container .searchSchoolWrap .input-search input {width:600px;}
+
+.container .section.info h4 {float:left;width:50%;}
+.container .section.info .infoTopSearch {float:left;width:50%;text-align:right;}
+.container .section.info .infoTopSearch select {display:inline-block;width:140px;}
+.container .section.info .schoolImage {position:absolute;right:0;top:0;}
+/*.container .section .subsection.info .form-vertical {margin-top:50px;}*/
+
+.container .faq {border-top:2px solid #ccc;}
+.container .faq>li {border-bottom:1px solid #ccc;padding:20px;}
+.container .faq li .question {position:relative;font-size:20px;padding:10px 0;}
+.container .faq li .question i.fa-question {display:inline-block;background:#555;color:#fff;border-radius:10px;padding:10px;margin-right:20px;}
+.container .faq li .question i.fa-angle-down {position:absolute;right:10px;}
+.container .faq li .question a {color:#555;}
+.container .faq li .answer {display:none;border-top:1px dashed #ccc;padding:20px 20px 20px 60px;line-height:1.4;background:#f4f4f4;}
+.container .faq li .answer.on {display:block;}
