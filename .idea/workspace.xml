@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7703d2df-5ec0-4b23-bb1a-fa09f2132e94" name="Default Changelist" comment="서브 페이지 3차">
+      <change afterPath="$PROJECT_DIR$/notice_archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_whole.html" beforeDir="false" afterPath="$PROJECT_DIR$/find_whole.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info_school.html" beforeDir="false" afterPath="$PROJECT_DIR$/info_school.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info_school_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/info_school_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/notice_faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice_notice.html" beforeDir="false" afterPath="$PROJECT_DIR$/notice_notice.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pHjm70xYnVpFFeNyJ3j7O4g4k5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hanmi\WebstormProjects\schoolB" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7703d2df-5ec0-4b23-bb1a-fa09f2132e94" name="Default Changelist" comment="" />
+      <created>1614847065819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614847065819</updated>
+      <workItem from="1614847067321" duration="14000" />
+      <workItem from="1614847111296" duration="800000" />
+      <workItem from="1615254925529" duration="10732000" />
+      <workItem from="1615276996771" duration="2760000" />
+      <workItem from="1615279959511" duration="49000" />
+      <workItem from="1615301662636" duration="1502000" />
+    </task>
+    <task id="LOCAL-00001" summary="첫업로드">
+      <created>1614847200359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614847200359</updated>
+    </task>
+    <task id="LOCAL-00002" summary="서브 페이지 3차">
+      <created>1615272168777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615272168777</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="첫업로드" />
+    <MESSAGE value="서브 페이지 3차" />
+    <option name="LAST_COMMIT_MESSAGE" value="서브 페이지 3차" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1615280006528">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615280006528" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615272170203">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615272170203" />
+    <state x="2695" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615279970477">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615254935274" />
+    <state x="2695" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615279970477" />
+    <state x="2588" y="223" width="584" height="618" key="find.popup" timestamp="1615279583976">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2588" y="223" width="584" height="618" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615279583976" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1615264050099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615264050099" />
+  </component>
+</project>

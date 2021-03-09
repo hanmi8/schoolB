@@ -16,4 +16,9 @@ $(function(){
         console.log(tabID);
         $(tabID).addClass('on');
     });
+
+    $('.faq').children('li').click(function(){
+        $(this).find('i.angle').toggleClass('fa-angle-down fa-angle-up');
+        $(this).children('.answer').slideToggle(200);
+    })
 })

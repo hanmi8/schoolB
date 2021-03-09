@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 * {box-sizing: border-box;}
-body {font-family: 'Noto Sans Korean', sans-serif;font-size: 16px;color: #3f4f5f;overflow-x: hidden;background:url('../images/topbg.png') no-repeat top center;}
-a {text-decoration: none;}
+body {font-family: 'Noto Sans Korean', sans-serif;font-size:16px;color: #3f4f5f;overflow-x: hidden;background:url('../images/topbg.png') no-repeat top center;}
+.wrapper a {text-decoration: none;}
 .color1 {background:#80bc25;}
 .color2 {background:#60970c;}
 .color3 {background:#457200;}
@@ -52,26 +52,26 @@ a {text-decoration: none;}
 
 .clearfix:after {content:'';display:block;height:0;clear:both;}
 
-h1 {font-size:40px;margin-bottom:40px;font-weight:500;}
-h2 {font-size:36px;margin-bottom:40px;font-weight:500;}
-h3 {font-size:30px;margin-bottom:20px;font-weight:500;}
-h4 {font-size:24px;margin-bottom:20px;font-weight:500;}
+.wrapper h1 {font-size:40px;margin-bottom:40px;font-weight:500;}
+.wrapper h2 {font-size:36px;margin-bottom:40px;font-weight:500;}
+.wrapper h3 {font-size:30px;margin-bottom:20px;font-weight:500;}
+.wrapper h4 {font-size:24px;margin-bottom:20px;font-weight:500;}
 
 .section {margin-bottom:100px;}
 .relative {position:relative;}
 
-table {width:100%;border-collapse: collapse;border-top:2px solid #ccc;}
-table th, table td {padding:10px;border-bottom:1px solid #ccc;text-align:center;}
-table tr:nth-child(even) td {background:#f6f6f6;}
-table tr:hover td {background: #fffae0;}
-table.table-vertical th {background:#f0f0f0;height:43px;vertical-align: middle;}
-table.table-vertical th,table.table-vertical td {border-right:1px dotted #ccc;}
-table.table-vertical th:last-child,table.table-vertical td:last-child {border-right:none;}
-tbody.tree td i {display:inline-block;width:20px;margin-right:5px;}
-tbody.tree td .depth-first  {display:inline-block;margin-left:0;}
-tbody.tree td .depth-second {display:inline-block;margin-left:40px;}
-table td a {color:#0a53be;}
-table td a:hover {text-decoration:underline;}
+.wrapper table {width:100%;border-collapse: collapse;border-top:2px solid #ccc;}
+.wrapper table th, table td {padding:10px;border-bottom:1px solid #ccc;text-align:center;}
+.wrapper table tr:nth-child(even) td {background:#f6f6f6;}
+.wrapper table tr:hover td {background: #fffae0;}
+.wrapper table.table-vertical th {background:#f0f0f0;height:43px;vertical-align: middle;}
+.wrapper table.table-vertical th,table.table-vertical td {border-right:1px dotted #ccc;}
+.wrapper table.table-vertical th:last-child,table.table-vertical td:last-child {border-right:none;}
+.wrapper tbody.tree td i {display:inline-block;width:20px;margin-right:5px;}
+.wrapper tbody.tree td .depth-first  {display:inline-block;margin-left:0;}
+.wrapper tbody.tree td .depth-second {display:inline-block;margin-left:40px;}
+.wrapper table td a {color:#0a53be;}
+.wrapper table td a:hover {text-decoration:underline;}
 .dataCount {margin-bottom:10px;text-align:right;}
 .dataCount span {color:#0a53be;}
 .table-search {margin-top:30px;text-align:center;}
@@ -182,7 +182,7 @@ table td a:hover {text-decoration:underline;}
     border-radius:0 0 10px 10px;transition:all .3s;z-index:97;}
 .topWrap .gnb ul.depth-second li {text-align:center;}
 .topWrap .gnb ul.depth-second li a {display:block;padding:10px;color:#555;word-break:keep-all;}
-.topWrap .gnb ul.depth-second li a:hover {background:#0a53be;color:#fff;}
+.topWrap .gnb ul.depth-second li a:hover {background:#1c84c6;color:#fff;}
 
 .topWrap .gnb .hamburger                {position:absolute;right:0;top:30px;width:24px;height:24px;cursor:pointer;}
 .topWrap .gnb .hamburger:after          {position:absolute;left:0;top:8px;content:'';width:24px;height:4px;background:#ccc;border-radius:10px;transition:.2s;}
@@ -287,10 +287,15 @@ table td a:hover {text-decoration:underline;}
 /*.container .section .subsection.info .form-vertical {margin-top:50px;}*/
 
 .container .faq {border-top:2px solid #ccc;}
-.container .faq>li {border-bottom:1px solid #ccc;padding:20px;}
+.container .faq>li {border-bottom:1px solid #ccc;padding:20px;cursor:pointer;}
 .container .faq li .question {position:relative;font-size:20px;padding:10px 0;}
 .container .faq li .question i.fa-question {display:inline-block;background:#555;color:#fff;border-radius:10px;padding:10px;margin-right:20px;}
-.container .faq li .question i.fa-angle-down {position:absolute;right:10px;}
+.container .faq li .question i.angle {position:absolute;right:10px;top:20px;}
 .container .faq li .question a {color:#555;}
-.container .faq li .answer {display:none;border-top:1px dashed #ccc;padding:20px 20px 20px 60px;line-height:1.4;background:#f4f4f4;}
+.container .faq li:hover {background:#fffae0;}
+.container .faq li:hover .question a {color:#ED5565;}
+.container .faq li .answer {display:none;border-top:1px dashed #ccc;padding:20px 20px 20px 60px;line-height:1.4;background:#f4f4f4;word-break:keep-all;}
 .container .faq li .answer.on {display:block;}
+.container .faq li .answer .subsection {margin-top:50px;}
+.container .faq li .answer ul {padding-left:40px;}
+.container .faq li .answer ul li {list-style:disc;padding:5px 0;}
